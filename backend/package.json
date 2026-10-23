@@ -1,0 +1,16 @@
+{
+  "name": "simple-accounts-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=../.env --watch src/index.js",
+    "start": "node --env-file=../.env src/index.js",
+    "db:reset": "node --env-file=../.env src/reset-database.js",
+    "test": "node --test tests/accounting.test.js tests/foundation.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}

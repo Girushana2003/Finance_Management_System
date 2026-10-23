@@ -1,0 +1,28 @@
+node_modules/
+dist/
+frontend/dist/
+.env
+.env.*
+!.env.example
+data/accounts.json
+data/accounts.json.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Python cache and virtual environments
+__pycache__/
+.venv/
+venv/
